@@ -102,7 +102,7 @@ public class Chess
 
                 }
 
-                String bestMove = minimaxRoot(1, board, true);
+                String bestMove = minimaxRoot(4, board, true);
 
                 board.doMove(bestMove);
 
